@@ -30,9 +30,9 @@ pub fn n_queens(input: i32) -> String {
 
 fn convert(vec: &[Vec<String>]) -> String {
     vec.iter()
-        .map(|inner_vec| inner_vec.join(", "))
+        .map(|inner_vec| inner_vec.join("\n"))
         .collect::<Vec<String>>()
-        .join("\n")
+        .join("\n\n")
 }
 
 fn backtrack(
