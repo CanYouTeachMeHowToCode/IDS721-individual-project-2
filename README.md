@@ -1,6 +1,2 @@
-# rust-new-project-template
-A good starting point for a new Rust project
-
-## References
-
-* [rust-cli-template](https://github.com/kbknapp/rust-cli-template)
+# Individual Project #2: Kubernetes (or similar) Microservice in Rust
+Build a functional web microservice in data engineering or machine learning engineering. (see the guide above about specs)
