@@ -1,1 +1,0 @@
-/Users/wuyilun/Desktop/IDS\ 721/Individual\ Project\ 2/IDS721-individual-project-2/project2/target/debug/project2: /Users/wuyilun/Desktop/IDS\ 721/Individual\ Project\ 2/IDS721-individual-project-2/project2/src/lib.rs /Users/wuyilun/Desktop/IDS\ 721/Individual\ Project\ 2/IDS721-individual-project-2/project2/src/main.rs
