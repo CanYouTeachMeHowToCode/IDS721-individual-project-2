@@ -8,7 +8,7 @@ use actix_web::{get, web, App, HttpResponse, HttpServer, Responder};
 use project2::n_queens;
 
 extern crate log;
-use log::{debug, error, log_enabled, info, Level};
+use log::info;
 
 // create a function that returns a welcome page
 #[get("/")]
@@ -33,7 +33,6 @@ async fn version() -> impl Responder {
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
-
     if std::env::var_os("RUST_LOG").is_none() {
         std::env::set_var("RUST_LOG", "actix_web=info");
     }

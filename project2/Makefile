@@ -6,7 +6,7 @@ rust-version:
 	rustup --version			#rust toolchain manager
 	clippy-driver --version		#rust linter
 
-format:
+format-check:
 	cargo fmt --quiet
 
 lint:
@@ -22,7 +22,7 @@ build-container:
 	# Build the container
 	docker build -t n-queens-microservice .
 
-release:
+build-release:
 	cargo build --release
 
-all: format lint test release build-container run
+all: format-check lint test build-release build-container run
